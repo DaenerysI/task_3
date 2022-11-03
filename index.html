@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-widht,intial-scale=1.0" />
+        <title>Praktikum Minggu 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id="body">
+        <h1 align="center" id="judul"></h1>
+        <div id="profil" class="profil">
+            <img src="profil.jpg" alt="Saya" width="220 " height="220" />
+            <div>
+                <h1>Hai saya Muhamad Bintang F,<br>120140040</h1>
+                <p>seorang Mahasiswa Teknik Informatika</p>
+            </div>
+            <div class="navbar">
+                <ul class="ul-navbar">
+                    <li class="li-navbar"><a>tentang saya</a></li>
+                    <li class="li-navbar"><a >riwayat pendidikan</a></li>
+                    <li class="li-navbar"><a >hubungi saya</a></li>
+                </ul>
+            </div>
+        </div>   
+        
+        <section>
+            <br>
+            <h2>Tentang Saya</h2>
+            <br>
+
+            <div class="tentang">
+                <p class="penjelasan">
+                Saya Muhamad Bintang Fitriatuderajat yang lahir di kabupaten Bekasi pada
+                tanggal 16 Desember 2001, Saat Ini saya sedang melanjutkan pendidikan s1
+                di Institut Teknologi Sumatera dengan program studi Teknik Informatika,
+                Saya merupakan anak pertama dari dua bersaudara, mengapa saya memilih
+                program studi teknik Informatika karena menurut saya teknologi akan
+                sangat dibutuhkan dimasa mendatang sehingga teknik Informatika merupakan
+                program studi yang tepat.
+                </p>
+                <figure>
+                    <video
+                        width="800"
+                        height="300"
+                        poster="profil.jpg"
+                        src="https://res.cloudinary.com/silv/video/upload/v1663428862/prak/videoplayback_fbzqpw.mp4"
+                        muted
+                        controls>
+                    </video>
+                    <figcaption><b>Video Saya</b> </figcaption>
+                </figure>
+            </div>
+        </section>
+        <br>
+        <section>
+                <h2>Riwayat Pendidikan</h2>
+                <br>
+            <table class ="tabel" id="tabel">
+                <thead>
+                <tr>
+                    <th rowspan="2">no</th>
+                    <th rowspan="2">Tingkat</th>
+                    <th rowspan="2">Tempat</th>
+                    <th colspan="2">waktu</th>
+                </tr>
+                <tr>
+                    <th>mulai</th>
+                    <th>selesai</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Taman Kanak-kanak</td>
+                    <td>TKIT Az Zahra</td>
+                    <td>2006</td>
+                    <td>2007</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sekolah Dasar</td>
+                    <td>SDIT Insan Kamil</td>
+                    <td>2008</td>
+                    <td>2014</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Sekolah Menengah Pertama</td>
+                    <td>SMPIT Insan Kamil</td>
+                    <td>2014</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Sekolah Menengah Akhir</td>
+                    <td>SMAN 3 Cikarang Utara</td>
+                    <td>2017</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Sarjana</td>
+                    <td>Institut Teknologi Sumatera</td>
+                    <td>2020</td>
+                    <td>Sekarang</td>
+                </tr>
+                </tbody>
+            </table>
+            <br>
+        </section>
+        <section>
+            <h2>Hubungi Saya</h2>
+            <br>
+            <div class="form" id="hubungi"> 
+                <button onclick="tombol()">Show Hubungi</button> 
+            </div>
+            <br>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        Terimakasih telah mengunjungi halaman ini
+    </footer>
+</html>
